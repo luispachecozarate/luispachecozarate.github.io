@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Pacheco Zarate - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'PT Serif', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #ffffff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .hero {
+            background-image: url('Stock_photo.jpeg'); /* Point to the image */
+            background-size: cover; /* Ensure the image covers the hero section */
+            background-position: center; /* Center the image */
+            height: 400px; /* Adjust height as needed */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #ffffff; /* Ensure text is visible on the image */
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* Add shadow for better visibility */
+        }
+        .hero p {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 5px 10px;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        .hero h2 {
+            margin: 10px 0;
+            font-size: 36px;
+        }
+        .portfolio-title {
+            margin: 0;
+            font-size: 48px;
+            font-weight: bold;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+        section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Luis Pacheco Zarate</h1>
+    </header>
+    
+    <div class="hero">
+        <h2 class="portfolio-title">Portfolio</h2>
+        <p></p><p></p><p></p><p></p><p></p>
+        <p>Welcome to my portfolio! I'm Luis, a recent graduate in financial mathematics
+            and statistics, eager to start my career in financial modeling, data analysis or related fields.
+        </p>
+    </div>
+    
+    <section>
+        <h2>My Portfolio</h2>
+        <h3>Projects</h3>
+        <ul>
+            <li><a href="https://luispachecozarate.github.io/Predicting-Weather-Condition-Using-Machine-Learning-Models/">Predicting Weather Conditions Using Machine Learning</a></li>
+            <p>A project focused on predicting weather conditions using various machine learning models, including Elastic Net, K-Nearest Neighbors, 
+                Linear Discriminant Analysis, and Random Forest. This project showcases data preprocessing, model training, and performance evaluation 
+                to accurately forecast weather conditions using real-world data.</p>
+            <li><a href="https://luispachecozarate.github.io/Bikes-Excel-Project/">Bike Sales Excel Project</a></li>
+            <p>A comprehensive data analysis project using Excel to explore trends in bike sales data. This project includes data cleaning, 
+                creating pivot tables, building interactive dashboards, and utilizing Excel functions to provide insights into customer demographics, 
+                purchasing behavior, and regional sales performance.</p>
+            <li><a href="https://luispachecozarate.github.io/Quantitative-Portfolio-Optimization/">Quantitative Portfolio Optimization</a></li>
+            <p>An analysis of portfolio optimization using a dataset of ten selected stocks. This project involves calculating mean returns, 
+                the variance-covariance matrix, and plotting the efficient frontier along with the Capital Market Line. It demonstrates the 
+                application of financial mathematics to identify optimal asset allocations for different risk levels.</p>
+            <!-- Add more projects here -->
+        </ul>
+    </section>
+</body>
+</html>
